@@ -2,7 +2,7 @@
 import { useEffect, useMemo, useState } from "react";
 import "./index.css";
 
-const API = "http://127.0.0.1:8000";
+const API = "https://subtrack-backend-zugh.onrender.com";
 
 function getDaysLeft(date) {
   const today = new Date();
